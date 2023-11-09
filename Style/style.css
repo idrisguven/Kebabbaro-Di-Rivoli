@@ -6,12 +6,13 @@
   scroll-behavior: smooth;
   list-style: none;
   text-decoration: none;
+
 }
 
 :root {
   --main-color:rgba(43, 255, 0, 0.61);
   --text-color:#fff;
-  --bg-color:#1e1c2a;
+  --bg-color:#000000;
   --big-font: 5rem;
   --h2-font: 2.25rem;
   --p-font: 0.9rem;
@@ -131,6 +132,10 @@ section {
     max-width: 100%;
     width: 480px;
     height: auto;
+    border: solid;
+    border-color: var(--main-color);
+    border-style:dashed;
+    border-radius: 500px;
   }
 
   .about-text span{
@@ -816,6 +821,25 @@ section {
   background-color: var(--main-color);
 }
 
+.home-text h1 {
+  font-size: 4rem;
+  color: var(--text-color);
+  margin-bottom: 25px;
+  position: relative;
+}
+
+
+.home-text h1::before {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 300px;
+  left: 0;
+  bottom: -8px;
+  background-color: var(--main-color);
+}
+
+
 .col ul li:not(:last-child) {
 
   margin-bottom: 15px;
@@ -882,7 +906,7 @@ section {
     color: var(--text-color);
   }
   header .navbar {
-    position: absolute;
+    position: flex;
     top: 0;
     left: 0;
     right: 0;
@@ -897,7 +921,7 @@ section {
     top: 70px;
   }
   .navbar a{
-    padding: 1.5rem;
+    padding: 5px;
     display: block;
   }
   .col {
@@ -934,3 +958,5 @@ section{
 
 
 
+.navbar-colored { background-color:#000; }
+.navbar-transparent { background-color:transparent;}
