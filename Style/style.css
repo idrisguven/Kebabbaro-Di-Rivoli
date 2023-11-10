@@ -857,7 +857,7 @@ section {
 
    .home-text h1::before {
       height: 2px;
-      width: 310px;
+      width: 260px;
       margin-left: 44px;
    }
 }
@@ -871,7 +871,7 @@ section {
       font-size: 30px;
    }
    .home {
-      grid-template-columns: 400px;
+      grid-template-columns: 350px;
       text-align: center;
    }
    .about {
