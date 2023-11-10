@@ -1,11 +1,10 @@
-let menu = document.querySelector("bx bx-menu");
-let navbar = document.querySelector(".navbar");
+let menuBtn = document.querySelector("#menu-icon");
+let menu = document.querySelector("#menu");
 
-menu.addEventListener("click", function () {
-  navbar.classList.toggle("active");
-
+menuBtn.addEventListener("click", function () {
+   menu.classList.toggle("active");
 });
 
 window.onscroll = () => {
-  navbar.classList.remove("active")
+   menu.classList.remove("active");
 };
