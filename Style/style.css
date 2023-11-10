@@ -66,6 +66,8 @@ header > #menu {
    top: 0;
    bottom: 0;
    height: 20vh;
+   min-height: 150px;
+   max-height: 150px;
    width: -webkit-fill-available;
    transform: translateX(100%);
    transition: 0.3s;
@@ -810,6 +812,7 @@ section {
    :root {
       --big-font: 3.5rem;
       --h2-font: 2rem;
+      --h1-font: 2rem;
    }
 }
 
@@ -851,8 +854,12 @@ section {
    header {
       padding: 10px 16px;
    }
+   .logo {
+      width: 155px;
+      font-size: 30px;
+   }
    .home {
-      grid-template-columns: 1fr;
+      grid-template-columns: 400px;
       text-align: center;
    }
    .about {
@@ -864,6 +871,12 @@ section {
    }
    section {
       padding: 100px 7%;
+   }
+   .home-text h1 {
+      font-size: 40px;
+   }
+   .home-text h2 {
+      font-size: 20px;
    }
 }
 
