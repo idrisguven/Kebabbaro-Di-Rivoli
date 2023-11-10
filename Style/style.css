@@ -1,12 +1,12 @@
 * {
    padding: 0;
    margin: 0;
-   margin-left: -7px;
    box-sizing: border-box;
    font-family: "Poppins", sans-serif;
    scroll-behavior: smooth;
    list-style: none;
    text-decoration: none;
+   
 }
 
 :root {
@@ -900,7 +900,6 @@ section {
       width: 100%;
    }
 }
-
 body {    overflow-x: hidden;    position: relative;
 }
 html {    overflow-x: hidden;
