@@ -144,6 +144,26 @@ section {
   
 }
 
+.btn1 {
+   min-height: 60vh;
+   display: flex;
+   align-items: center;
+   margin-bottom: -400px;
+   margin-left: 500px;
+   float: left;
+}
+
+.btn2 {
+   min-height: 60vh;
+   display: grid;
+   align-items: center;
+   margin-bottom: -200px;
+   margin-left: 645px;
+   max-width: 80px;
+}
+
+
+
 .btn:hover {
    transform: scale(1.2) translateZ(15px);
    transition: 0.s;
@@ -809,7 +829,9 @@ section {
    transform: scale(1.2);
    color: var(--bg-color);
    background-color: var(--text-color);
+
 }
+
 
 @media (max-width: 1560px) {
    header {
@@ -917,3 +939,4 @@ body {    overflow-x: hidden;    position: relative;
 }
 html {    overflow-x: hidden;
 }
+
