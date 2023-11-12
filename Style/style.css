@@ -196,11 +196,12 @@ section {
 
 .heading h2 {
    font-size: var(--h2-font);
+   margin-top: 20px;
 }
 
 .menu-container {
    display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+   grid-template-columns: repeat(auto-fit, minmax(220px, 350px));
    grid-gap: 1.5rem;
    align-items: center;
 }
@@ -897,6 +898,13 @@ section {
    }
    .about-text span {
       text-align: center;
+   }
+
+   .menu-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+      grid-gap: 1.5rem;
+      align-items: center;
    }
 }
 
