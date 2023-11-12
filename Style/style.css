@@ -36,8 +36,8 @@ header {
    z-index: 1000;
    display: flex;
    align-items: center;
-   justify-content: space-between;
-   padding: 30px 170px;
+   justify-content: space-around;
+   padding: 5px 170px;
    background: var(--bg-color);
 }
 
@@ -45,6 +45,8 @@ header {
    color: var(--main-color);
    font-weight: 600;
    font-size: 2.4rem;
+   width: 170px;
+   margin-left: 100px;
 }
 
 .navbar {
@@ -866,11 +868,11 @@ section {
 
 @media (max-width: 720px) {
    header {
-      padding: 10px 16px;
+      padding: 0px 16px;
    }
    .logo {
       width: 155px;
-      font-size: 30px;
+ 
    }
    .home {
       grid-template-columns: 350px;
