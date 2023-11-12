@@ -8,3 +8,4 @@ menuBtn.addEventListener("click", function () {
 window.onscroll = () => {
    menu.classList.remove("active");
 };
+

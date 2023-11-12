@@ -48,7 +48,7 @@ header {
 }
 
 .navbar {
-   display: flex;
+   display: contents;
 }
 
 .navbar a {
@@ -138,12 +138,13 @@ section {
    padding: 10px 20px;
    background-color: var(--main-color);
    color: #fff;
-   border-radius: 7px;
+   border-radius: 20px;
+  
 }
 
 .btn:hover {
-   transform: scale(1.2) translateY(10px);
-   transition: 0.4s;
+   transform: scale(1.2) translateZ(15px);
+   transition: 0.s;
 }
 
 .i-nostri-kebap {
@@ -183,6 +184,7 @@ section {
 
 .heading {
    text-align: center;
+   padding-top: 60px;
 }
 
 .heading span {
