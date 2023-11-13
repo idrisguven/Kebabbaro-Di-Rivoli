@@ -107,6 +107,7 @@ header > #menu.active {
 
 section {
    padding: 70px 17%;
+   padding-top: 0px;
 }
 
 .home {
@@ -144,22 +145,40 @@ section {
   
 }
 
+.btnlar {
+   display: flex;
+   margin-left: 200px;
+   margin-right: 200px;
+   padding-left: 400px;
+   padding-right: 400px;
+}
+
 .btn1 {
    min-height: 60vh;
    display: flex;
    align-items: center;
-   margin-bottom: -400px;
-   margin-left: 500px;
-   float: left;
+   padding-right: 20px;
 }
 
 .btn2 {
    min-height: 60vh;
-   display: grid;
+   display: flex;
    align-items: center;
-   margin-bottom: -200px;
-   margin-left: 645px;
-   max-width: 80px;
+   padding-right: 20px;
+}
+
+.btn3 {
+   min-height: 60vh;
+   display: flex;
+   align-items: center;
+   padding-right: 20px;
+}
+
+.btn4 {
+   min-height: 60vh;
+   display: flex;
+   align-items: center;
+   padding-right: 20px;
 }
 
 
