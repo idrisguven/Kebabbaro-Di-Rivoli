@@ -264,10 +264,6 @@ section {
    line-height: 1.7;
 }
 
-.separator {
-   margin-right: 200px;
-
-}
 
 .heading {
    text-align: center;
@@ -981,6 +977,26 @@ section {
    }
    .about-text span {
       text-align: center;
+   }
+
+   .dovesiamo {
+      display: block;
+      grid-template-columns: 1fr;
+      grid-gap: 1.5rem;
+      align-items: center;
+      margin-top: 20px;
+   }
+
+   .dovesiamo-img {
+      padding-right: 200px;
+   }
+
+   .mappa {
+      width: 355px;
+      height: 350px;
+      border-radius: 50px;
+      align-items: center;
+      justify-content: center;
    }
 }
 
