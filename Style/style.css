@@ -36,8 +36,8 @@ header {
    z-index: 1000;
    display: flex;
    align-items: center;
-   justify-content: space-around;
-   padding: 5px 170px;
+   justify-content: space-between;
+   padding: 30px 170px;
    background: var(--bg-color);
 }
 
@@ -107,7 +107,6 @@ header > #menu.active {
 
 section {
    padding: 70px 17%;
-   padding-top: 0px;
 }
 
 .home {
@@ -121,7 +120,7 @@ section {
 
 .home-img img {
    max-width: 100%;
-   width: 600px;
+   width: 500px;
    height: auto;
 }
 
@@ -147,8 +146,8 @@ section {
 
 .btnlar {
    display: flex;
-   margin-left: 200px;
-   margin-right: 200px;
+   align-items: center;
+   justify-content: center;
    padding-left: 400px;
    padding-right: 400px;
 }
@@ -180,8 +179,6 @@ section {
    align-items: center;
    padding-right: 20px;
 }
-
-
 
 .btn:hover {
    transform: scale(1.2) translateZ(15px);
@@ -235,12 +232,11 @@ section {
 
 .heading h2 {
    font-size: var(--h2-font);
-   margin-top: 20px;
 }
 
 .menu-container {
    display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(220px, 350px));
+   grid-template-columns: repeat(auto-fit, minmax(220px, auto));
    grid-gap: 1.5rem;
    align-items: center;
 }
@@ -848,9 +844,7 @@ section {
    transform: scale(1.2);
    color: var(--bg-color);
    background-color: var(--text-color);
-
 }
-
 
 @media (max-width: 1560px) {
    header {
@@ -910,11 +904,11 @@ section {
 
 @media (max-width: 720px) {
    header {
-      padding: 0px 16px;
+      padding: 10px 16px;
    }
    .logo {
       width: 155px;
- 
+      font-size: 30px;
    }
    .home {
       grid-template-columns: 350px;
@@ -932,20 +926,12 @@ section {
    }
    .home-text h1 {
       font-size: 40px;
-      margin-top: 50px;
    }
    .home-text h2 {
       font-size: 20px;
    }
    .about-text span {
       text-align: center;
-   }
-
-   .menu-container {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, auto));
-      grid-gap: 1.5rem;
-      align-items: center;
    }
 }
 
@@ -958,4 +944,3 @@ body {    overflow-x: hidden;    position: relative;
 }
 html {    overflow-x: hidden;
 }
-
