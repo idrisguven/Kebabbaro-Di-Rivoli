@@ -152,29 +152,30 @@ section {
    padding-right: 400px;
 }
 
+
 .btn1 {
-   min-height: 60vh;
+   min-height: 10vh;
    display: flex;
    align-items: center;
    padding-right: 20px;
 }
 
 .btn2 {
-   min-height: 60vh;
+   min-height: 10vh;
    display: flex;
    align-items: center;
    padding-right: 20px;
 }
 
 .btn3 {
-   min-height: 60vh;
+   min-height: 10vh;
    display: flex;
    align-items: center;
    padding-right: 20px;
 }
 
 .btn4 {
-   min-height: 60vh;
+   min-height: 10vh;
    display: flex;
    align-items: center;
    padding-right: 20px;
@@ -1004,9 +1005,12 @@ section {
          display: flex;
          align-items: center;
          justify-content: center;
-         padding-left: 220px;
-         padding-right: 400px;
-         margin-bottom: -300px;
+         padding-left: 100px;
+         padding-right: 500px;
+         margin-bottom: -137px;
+         margin-top: 200px;
+         flex-wrap: wrap;
+         width: 200%;
    }
 }
 
