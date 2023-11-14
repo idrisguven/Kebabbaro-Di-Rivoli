@@ -1011,9 +1011,6 @@ section {
 
    .dovesiamo {
       display: block;
-      grid-template-columns: 1fr;
-      grid-gap: 1.5rem;
-      align-items: center;
       margin-top: 20px;
    }
 
@@ -1022,7 +1019,7 @@ section {
    }
 
    .mappa {
-      width: 355px;
+      width: 330px;
       height: 350px;
       border-radius: 50px;
       align-items: center;
