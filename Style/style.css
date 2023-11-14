@@ -1055,6 +1055,11 @@ section {
    .all-menu {
       grid-template-columns: repeat(auto-fit, minmax(150px, auto));
    }
+
+   .home-text {
+      padding-top: 50px;
+   }
+
    
 }
 
