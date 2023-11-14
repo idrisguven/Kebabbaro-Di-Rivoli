@@ -668,6 +668,7 @@ section {
 .box-img9 {
    width: 220px;
    height: 220px;
+   object-fit: cover;
 }
 
 .box-img9 img {
@@ -676,7 +677,7 @@ section {
 }
 
 .box9 h2 {
-   font-size: 1.3rem;
+   font-size: 1.2rem;
    color: var(--bg-color);
 }
 
@@ -704,8 +705,8 @@ section {
    background: #feeee78c;
    padding: 20px;
    border-radius: 0.5rem;
-   max-width: 300px;
-   max-height: 400px;
+   max-width: 350px;
+   max-height: 370px;
 }
 
 .box-img10 {
@@ -746,12 +747,10 @@ section {
    align-items: center;
    justify-content: center;
    background: #feeee78c;
-   padding: 30px;
-   padding-left: 60px;
-   padding-right: 60px;
+   padding: 20px;
    border-radius: 0.5rem;
-   max-width: 300px;
-   max-height: 400px;
+   max-width: 350px;
+   max-height: 370px;
 }
 
 .box-img11 {
@@ -1049,9 +1048,10 @@ section {
       justify-content: space-between;
    }
 
-   .box-img7, .box-img8, .box-img9, .box-img10, .box-img11, .box-img12  {
+   .box-img7, .box-img8, .box-img9, .box-img10, .box-img12, .box-img11  {
       width: 100%;
    }
+
    
 }
 
