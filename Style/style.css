@@ -150,7 +150,7 @@ section {
    justify-content: center;
    padding-left: 400px;
    padding-right: 400px;
-   margin-top: 210px;
+   padding-top: 210px;
 }
 
 
@@ -982,6 +982,8 @@ section {
    .logo {
       width: 155px;
       font-size: 30px;
+      margin-left: 0px;
+      padding-left: 10px;
    }
    .home {
       grid-template-columns: 350px;
@@ -1033,12 +1035,24 @@ section {
          align-items: center;
          justify-content: center;
          padding-left: 100px;
-         padding-right: 500px;
+         padding-right: 510px;
          margin-bottom: -137px;
-         margin-top: 200px;
          flex-wrap: wrap;
          width: 200%;
    }
+
+   .menu-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+      grid-gap: 1.5rem;
+      align-items: center;
+      justify-content: space-between;
+   }
+
+   .box-img7, .box-img8, .box-img9, .box-img10, .box-img11, .box-img12  {
+      width: 160px;
+   }
+   
 }
 
 @media (max-width: 575px) {
