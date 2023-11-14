@@ -1050,7 +1050,7 @@ section {
    }
 
    .box-img7, .box-img8, .box-img9, .box-img10, .box-img11, .box-img12  {
-      width: 160px;
+      width: 100%;
    }
    
 }
