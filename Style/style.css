@@ -150,6 +150,7 @@ section {
    justify-content: center;
    padding-left: 400px;
    padding-right: 400px;
+   margin-top: 210px;
 }
 
 
@@ -285,6 +286,7 @@ section {
    grid-template-columns: repeat(auto-fit, minmax(220px, auto));
    grid-gap: 1.5rem;
    align-items: center;
+   justify-content: space-between;
 }
 
 .box1 {
@@ -298,6 +300,8 @@ section {
    background: #feeee78c;
    padding: 20px;
    border-radius: 0.5rem;
+   max-width: 350px;
+   max-height: 370px;
 }
 
 .box-img1 {
@@ -339,6 +343,8 @@ section {
    background: #feeee78c;
    padding: 20px;
    border-radius: 0.5rem;
+   max-width: 350px;
+   max-height: 370px;
 }
 
 .box-img2 {
@@ -381,6 +387,8 @@ section {
    background: #feeee78c;
    padding: 20px;
    border-radius: 0.5rem;
+   max-width: 350px;
+   max-height: 370px;
 }
 
 .box-img3 {
@@ -424,6 +432,8 @@ section {
    background: #feeee78c;
    padding: 20px;
    border-radius: 0.5rem;
+   max-width: 350px;
+   max-height: 370px;
 }
 
 .box-img4 {
@@ -467,6 +477,8 @@ section {
    background: #feeee78c;
    padding: 20px;
    border-radius: 0.5rem;
+   max-width: 350px;
+   max-height: 370px;
 }
 
 .box-img5 {
@@ -510,6 +522,8 @@ section {
    background: #feeee78c;
    padding: 20px;
    border-radius: 0.5rem;
+   max-width: 350px;
+   max-height: 370px;
 }
 
 .box-img6 {
@@ -559,6 +573,8 @@ section {
    background: #feeee78c;
    padding: 20px;
    border-radius: 0.5rem;
+   max-width: 350px;
+   max-height: 370px;
 }
 
 .box-img7 {
@@ -601,6 +617,8 @@ section {
    background: #feeee78c;
    padding: 20px;
    border-radius: 0.5rem;
+   max-width: 350px;
+   max-height: 370px;
 }
 
 .box-img8 {
@@ -643,6 +661,8 @@ section {
    background: #feeee78c;
    padding: 20px;
    border-radius: 0.5rem;
+   max-width: 350px;
+   max-height: 370px;
 }
 
 .box-img9 {
@@ -684,6 +704,8 @@ section {
    background: #feeee78c;
    padding: 20px;
    border-radius: 0.5rem;
+   max-width: 300px;
+   max-height: 400px;
 }
 
 .box-img10 {
@@ -728,6 +750,8 @@ section {
    padding-left: 60px;
    padding-right: 60px;
    border-radius: 0.5rem;
+   max-width: 300px;
+   max-height: 400px;
 }
 
 .box-img11 {
@@ -771,6 +795,9 @@ section {
    background: #feeee78c;
    padding: 20px;
    border-radius: 0.5rem;
+   max-width: 300px;
+   max-height: 400px;
+   min-height: 400px;
 }
 
 .box-img12 {
