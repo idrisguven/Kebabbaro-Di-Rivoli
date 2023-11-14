@@ -173,6 +173,7 @@ section {
    display: flex;
    align-items: center;
    padding-right: 20px;
+
 }
 
 .btn4 {
@@ -1034,10 +1035,9 @@ section {
          align-items: center;
          justify-content: center;
          padding-left: 100px;
-         padding-right: 510px;
+         padding-right: 100px;
          margin-bottom: -137px;
          flex-wrap: wrap;
-         width: 200%;
    }
 
    .menu-container {
@@ -1052,6 +1052,9 @@ section {
       width: 100%;
    }
 
+   .all-menu {
+      grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+   }
    
 }
 
