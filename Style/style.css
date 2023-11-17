@@ -63,7 +63,7 @@ header {
 header > #menu {
    background-color: white;
 
-   opacity: 90%;
+   opacity: 100%;
    position: absolute;
    right: 0;
    top: 0;
@@ -82,7 +82,7 @@ header > #menu {
 
 header > #menu.active {
    transform: translateX(0);
-   right: 70px;
+   right: 55px;
    bottom: 100px;
    
    
@@ -104,6 +104,8 @@ header > #menu.active {
    cursor: pointer;
    display: none;
 }
+
+
 
 section {
    padding: 70px 17%;
@@ -461,7 +463,14 @@ section {
    color: grey;
 }
 
+.menutest {
+   padding-left: 20px;
+}
 
+.menulogo {
+   width: 30%;
+   margin-right: 200px;
+}
 
 @media (max-width: 1560px) {
    header {
