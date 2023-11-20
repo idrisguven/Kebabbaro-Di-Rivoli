@@ -484,6 +484,10 @@ section {
    transform: scale(1.4) rotate();
 }
 
+.redtext {
+   color: red;
+}
+
 
 @media (max-width: 1560px) {
    header {
@@ -626,6 +630,13 @@ section {
          transform: scale(1.2);
       }
 
+   .name {
+      font-size: 20px;
+   }
+
+   .desc {
+      font-size: 14px;
+   }
    
 }
 
