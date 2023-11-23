@@ -489,7 +489,30 @@ section {
 }
 
 
+#menu-table {
+   width: 100%;
+   margin: 20px auto;
+   border-collapse: collapse;
+   margin-top: 200px;
+}
 
+#menu-table th, #menu-table td {
+   padding: 10px;
+   text-align: left;
+}
+
+#menu-table th {
+   background-color: #000000;
+   color: #ff0000;
+}
+
+#menu-table td {
+   border-bottom: 1px solid #ddd;
+}
+
+#menu-table td p {
+   color: rgba(43, 255, 0, 0.61); 
+}
 
 
 @media (max-width: 1560px) {
