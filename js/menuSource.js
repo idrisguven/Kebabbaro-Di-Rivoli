@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
   // Pizza bilgileri
   var pizzaMenu = [
-      { name: "Pizza Kebap", description: "", baby: 8, normal: 10, maxi: 24 },
+      { name: "Pizza Kebap", description: "rinforzo di carne € 2,00", baby: 8, normal: 10, maxi: 24 },
       { name: "Fabry/Marco", description: "", baby: 9, normal: 11, maxi: 26 },
       { name: "Pizza Ata", description: "", baby: 10, normal: 12, maxi: 27 },
       { name: "Marinara", description: "", baby: 4, normal: 5, maxi: 12 },
@@ -36,45 +36,46 @@ document.addEventListener("DOMContentLoaded", function() {
       { name: "Gorgo e salamino", description: "", baby: 7, normal: 8, maxi: 20 },
       { name: "Tirolese", description: "", baby: 7, normal: 8, maxi: 20 },
       { name: "Margherita speciale", description: "", baby: 7, normal: 8, maxi: 20 },
-      { name: "4 Stagioni", description: "", baby: 7, normal: 8, maxi: 20 },
-      { name: "Prosciutto e panna", description: "", baby: 7, normal: 8, maxi: 20 },
-      { name: "Siciliana", description: "", baby: 7, normal: 8, maxi: 20 },
-      { name: "Bufala", description: "", baby: 7, normal: 8, maxi: 20 },
-      { name: "Crudo", description: "", baby: 7, normal: 8, maxi: 20 },
-      { name: "Speck", description: "", baby: 7, normal: 8, maxi: 20 },
-      { name: "Stracchino e rucola", description: "", baby: 7, normal: 8, maxi: 20 },
-      { name: "Fresca", description: "", baby: 7, normal: 8, maxi: 20 },
-      { name: "Speck e brie", description: "", baby: 7, normal: 8, maxi: 20 },
-      { name: "Capricciosa", description: "", baby: 7, normal: 8, maxi: 20 },
-      { name: "4 Salumi", description: "", baby: 7, normal: 8, maxi: 20 },
-      { name: "Popeye", description: "", baby: 7, normal: 8, maxi: 20 },
-      { name: "Saporita", description: "", baby: 7, normal: 8, maxi: 20 },
-      { name: "Deliziosa", description: "", baby: 7, normal: 8, maxi: 20 },
-      { name: "Delux", description: "", baby: 7, normal: 8, maxi: 20 },
-      { name: "Vulcano", description: "", baby: 7, normal: 8, maxi: 20 },
-      { name: "Pizzaiola", description: "", baby: 7, normal: 8, maxi: 20 },
-      { name: "Salsiccia e friarielli", description: "", baby: 7, normal: 8, maxi: 20 },
-      { name: "Bella Genova", description: "", baby: 7, normal: 8, maxi: 20 },
-      { name: "Americana", description: "", baby: 7, normal: 8, maxi: 20 },
-      { name: "Pizza Nutella", description: "", baby: 7, normal: 8, maxi: 20 },
+      { name: "4 Stagioni", description: "", baby: 7.50, normal: 9, maxi: 20 },
+      { name: "4 Formaggi", description: "", baby: 7.50, normal: 9, maxi: 20 },
+      { name: "Prosciutto e panna", description: "", baby: 7.50, normal: 9, maxi: 20 },
+      { name: "Siciliana", description: "", baby: 7.50, normal: 9, maxi: 20 },
+      { name: "Bufala", description: "", baby: 7.50, normal: 9, maxi: 20 },
+      { name: "Crudo", description: "", baby: 7.50, normal: 9, maxi: 20 },
+      { name: "Speck", description: "", baby: 7.50, normal: 9, maxi: 20 },
+      { name: "Stracchino e rucola", description: "", baby: 7.50, normal: 9, maxi: 20 },
+      { name: "Fresca", description: "", baby: 8, normal: 10, maxi: 24 },
+      { name: "Speck e brie", description: "", baby: 8, normal: 10, maxi: 24 },
+      { name: "Capricciosa", description: "", baby: 8, normal: 10, maxi: 24 },
+      { name: "4 Salumi", description: "", baby: 8, normal: 10, maxi: 24 },
+      { name: "Popeye", description: "", baby: 8, normal: 10, maxi: 24 },
+      { name: "Saporita", description: "", baby: 8, normal: 10, maxi: 24 },
+      { name: "Deliziosa", description: "", baby: 8, normal: 10, maxi: 24 },
+      { name: "Delux", description: "", baby: 8, normal: 10, maxi: 24 },
+      { name: "Vulcano", description: "", baby: 8, normal: 10, maxi: 24 },
+      { name: "Pizzaiola", description: "", baby: 8, normal: 10, maxi: 24 },
+      { name: "Salsiccia e friarielli", description: "", baby: 8, normal: 10, maxi: 24 },
+      { name: "Bella Genova", description: "", baby: 8, normal: 10, maxi: 24 },
+      { name: "Americana", description: "", baby: 8, normal: 10, maxi: 22 },
+      { name: "Pizza Nutella", description: "", baby: 5, normal: 7, maxi: 14 },
     
   ];
 
   var focacceMenu = [
-    { name: "Focaccia", description: "", baby: 6.99, normal: 9.99, maxi: 12.99 },
-    { name: "Prosciutto crudo", description: "", baby: 7.99, normal: 11.99, maxi: 15.99 },
-    { name: "Pomodorini e rucola", description: "", baby: 7.99, normal: 11.99, maxi: 15.99 },
-    { name: "Crudo e bufala", description: "", baby: 7.99, normal: 11.99, maxi: 15.99 },
-    { name: "Focaccia fresca", description: "", baby: 7.99, normal: 11.99, maxi: 15.99 }
+    { name: "Focaccia", description: "", baby: 4, normal: 5, maxi: 12.50 },
+    { name: "Prosciutto crudo", description: "", baby: 6, normal: 7, maxi: 14 },
+    { name: "Pomodorini e rucola", description: "", baby: 6, normal: 7, maxi: 14 },
+    { name: "Crudo e bufala", description: "", baby: 7, normal: 8, maxi: 16 },
+    { name: "Focaccia fresca", description: "", baby: 8, normal: 10, maxi: 18 }
 
 ];
 
 var calzoniMenu = [
-  { name: "Calzone Kebap", description: "", baby: 6.99, normal: 9.99, maxi: 12.99 },
-  { name: "Calzone prosciutto", description: "", baby: 7.99, normal: 11.99, maxi: 15.99 },
-  { name: "Calzone farcito", description: "", baby: 7.99, normal: 11.99, maxi: 15.99 },
-  { name: "Calzone diavola", description: "", baby: 7.99, normal: 11.99, maxi: 15.99 },
-  { name: "Calzone liscio", description: "", baby: 7.99, normal: 11.99, maxi: 15.99 }
+  { name: "Calzone Kebap", description: "rinforzo di carne € 2,00", baby: 8, normal: 10},
+  { name: "Calzone prosciutto", description: "", baby: 6, normal: 8},
+  { name: "Calzone farcito", description: "", baby: 8, normal: 10},
+  { name: "Calzone diavola", description: "", baby: 6, normal: 8},
+  { name: "Calzone liscio", description: "", baby: 6, normal: 7 }
 
 ];
   
@@ -151,13 +152,12 @@ var calzoniMenu = [
         var normalPriceCell = document.createElement("td");
         normalPriceCell.textContent = "€" + calzone.normal;
   
-        var maxiPriceCell = document.createElement("td");
-        maxiPriceCell.textContent = "€" + calzone.maxi;
+
   
         row.appendChild(nameCell);
         row.appendChild(babyPriceCell);
         row.appendChild(normalPriceCell);
-        row.appendChild(maxiPriceCell);
+
   
         calzoniBody.appendChild(row);
     });
