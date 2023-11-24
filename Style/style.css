@@ -564,6 +564,22 @@ section {
    color: rgba(43, 255, 0, 0.61); 
 }
 
+#menu-icon .bx-x {
+   display: none;
+}
+
+#menu-icon.active .bx-menu {
+   display: none;
+}
+
+#menu-icon.active .bx-x {
+   display: initial;
+}
+
+#menu-icon {
+   font-size: 2rem;
+   cursor: pointer;
+}
 
 
 @media (max-width: 1560px) {
