@@ -1,0 +1,156 @@
+@media (max-width: 1560px) {
+  header {
+     padding: 15px 40px;
+  }
+  :root {
+     --big-font: 3.5rem;
+     --h2-font: 2rem;
+     --h1-font: 2rem;
+  }
+}
+
+@media (max-width: 1140px) {
+  section {
+     padding: 50px 8%;
+  }
+
+  #menu-icon {
+     display: initial;
+     color: var(--text-color);
+  }
+  header .navbar {
+     position: flex;
+     top: 0;
+     left: 0;
+     right: 0;
+     display: none;
+     flex-direction: column;
+     text-align: center;
+     background: #2b2640;
+     transition: 0.3s;
+  }
+
+  header .active {
+     top: 70px;
+  }
+  .navbar a {
+     padding: 5px;
+     display: block;
+  }
+  .col {
+     width: 50%;
+     margin-bottom: 10px;
+  }
+
+  .about-text span {
+     text-align: center;
+     align-items: center;
+  }
+
+  .home-text h1::before {
+     height: 2px;
+     width: 260px;
+     margin-left: 44px;
+  }
+}
+
+@media (max-width: 720px) {
+  header {
+     padding: 10px 16px;
+  }
+  .logo {
+     width: 155px;
+     font-size: 30px;
+     margin-left: 0px;
+     padding-left: 10px;
+  }
+  .home {
+     grid-template-columns: 350px;
+     text-align: center;
+  }
+  .about {
+     grid-template-columns: 1fr;
+     text-align: center;
+  }
+  .about-img {
+     order: 2;
+  }
+  section {
+     padding: 100px 7%;
+  }
+  .home-text h1 {
+     font-size: 40px;
+  }
+  .home-text h2 {
+     font-size: 20px;
+  }
+  .about-text span {
+     text-align: center;
+  }
+
+  .dovesiamo {
+     display: block;
+     padding-top: 50px;
+     text-align: center;
+  }
+
+  .mappa {
+     width: 330px;
+     height: 350px;
+     border-radius: 50px;
+
+  }
+
+
+  .btnlar {
+
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding-left: 60px;
+     padding-right: 60px;
+     margin-bottom: 0;
+     flex-wrap: wrap;
+}
+
+
+
+  .all-menu {
+     grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+  }
+
+  .home-text {
+     padding-top: 50px;
+  }
+
+  .imgsettings {
+     max-width: 100%;
+  
+  }
+
+  .img {
+     -webkit-transition-property: all; 
+     -webkit-transition-duration: 0.3s; 
+     -webkit-transition-timing-function: ease; 
+     width: 100%;
+     }
+     
+     .img:hover {
+        transform: scale(1.2);
+     }
+
+  .name {
+     font-size: 20px;
+  }
+
+  .desc {
+     font-size: 14px;
+  }
+  
+}
+
+@media (max-width: 575px) {
+  .col {
+     width: 100%;
+  }
+}

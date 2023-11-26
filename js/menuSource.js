@@ -78,7 +78,25 @@ var calzoniMenu = [
   { name: "Calzone liscio", description: "", baby: 6, normal: 7 }
 
 ];
-  
+
+var antipastiMenu = [
+  { name: "Mini Prosciutto cotto", description: "", prezzo: 2.50 },
+  { name: "Mini Salamino", description: "", prezzo: 2.50 },
+  { name: "Mini Pomodoro", description: "", prezzo: 2.50 },
+  { name: "Mini Wurstel", description: "", prezzo: 2.50 },
+  { name: "Mini Funghi", description: "", prezzo: 2.50 },
+  { name: "Mini Kebap", description: "", prezzo: 2.50 },
+  { name: "Hot Dog", description: "", prezzo: 2.50 },
+  { name: "Farinata Classica", description: "", prezzo: 4 },
+  { name: "Farinata Farcita", description: "", prezzo: 5 },
+  { name: "Trancio Margherita", description: "", prezzo: 3 },
+  { name: "Trancio Farcito", description: "", prezzo: 3.50 },
+  { name: "Trancio Margherita + Carne", description: "", prezzo: 5 },
+
+];
+
+
+
   // Menu bodysi
   var menuBody = document.getElementById("menu-body");
 
@@ -161,5 +179,31 @@ var calzoniMenu = [
   
         calzoniBody.appendChild(row);
     });
+
+
+      // Antipasti
+
+      // Get the focacce body
+      var antipastiBody = document.getElementById("antipasti-body");
+
+      // Display each focaccia in the focacce table
+      antipastiMenu.forEach(function(antipasto) {
+        var row = document.createElement("tr");
+  
+        var nameCell = document.createElement("td");
+        nameCell.innerHTML = "<strong>" + antipasto.name + "</strong><p>" + antipasto.description + "</p></td>";
+  
+        var prezzoPriceCell = document.createElement("td");
+        prezzoPriceCell.textContent = "€" + antipasto.prezzo;
+  
+  
+
+  
+        row.appendChild(nameCell);
+        row.appendChild(prezzoPriceCell);
+
+        antipastiBody.appendChild(row);
+    });
+  
   
 });
