@@ -723,6 +723,19 @@ section {
    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Aggiungi un'ombra leggera */
 }
 
+.ordinaqui {
+
+   text-align: center;
+
+}
+
+.justeat, .glovo {
+
+   max-width: 50px;
+   padding-top: 20px;
+}
+
+
 
 
 body {    overflow-x: hidden;    position: relative;
