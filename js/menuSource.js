@@ -96,6 +96,52 @@ var antipastiMenu = [
 ];
 
 
+var frittureMenu = [
+  { name: "Patatine Fritte", description: "", prezzo: 3.50 },
+  { name: "Patatine Fritte Maxi", description: "", prezzo: 6.50 },
+  { name: "Crocchette di patate", description: "", prezzo: 3.50 },
+  { name: "Fagottino", description: "", prezzo: 1.50 },
+  { name: "Falafel", description: "", prezzo: 1 },
+
+];
+
+var bibiteMenu = [
+  { name: "Acqua Naturale/Frizzante", description: "", prezzo: 1 },
+  { name: "Coca Cola - 33cl", description: "", prezzo: 2 },
+  { name: "Coca Cola Zero - 33cl", description: "", prezzo: 2 },
+  { name: "Fanta/Sprite - 33cl", description: "", prezzo: 2 },
+  { name: "Chinotto - 33cl", description: "", prezzo: 2 },
+  { name: "Lemosoda/Oransoda - 33cl", description: "", prezzo: 2 },
+  { name: "Thè San Benedetto - 33cl", description: "", prezzo: 2 },
+  { name: "Estathè in lattina" , description: "", prezzo: 2.50 },
+  { name: "Estathè in bottiglia - 40cl", description: "", prezzo: 3 },
+  { name: "Fuzetea in bottiglia - 40cl", description: "", prezzo: 2.50 },
+  { name: "Coca Cola Bottiglia - 66cl" , description: "", prezzo: 3 },
+  { name: "Coca Cola Zero Bottiglia - 66cl", description: "", prezzo: 3 },
+  { name: "Fanta/Sprite Bottiglia - 66cl", description: "", prezzo: 3 },
+  { name: "Monster - 50cl", description: "", prezzo: 3 },
+  { name: "Monster Juice - 50cl" , description: "", prezzo: 3 },
+  { name: "Redbull - 50cl", description: "", prezzo: 3 },
+  { name: "Ayran *Bevanda turca 25cl*", description: "Yogurt naturale, acqua, sale", prezzo: 2 },
+
+];
+
+
+var birreMenu = [
+  { name: "Moretti - 33cl", description: "", prezzo: 2.5 },
+  { name: "Moretti - 66cl", description: "", prezzo: 3 },
+  { name: "Heineken - 33cl", description: "", prezzo: 2.5 },
+  { name: "Beck's - 33cl", description: "", prezzo: 2.5 },
+  { name: "Ceres - 33cl", description: "", prezzo: 3.5 },
+  { name: "Tennet's - 33cl", description: "", prezzo: 3 },
+  { name: "Desperados - 33cl", description: "", prezzo: 3 },
+  { name: "Ichnusa *non filtrata 33cl*", description: "", prezzo: 3 },
+  { name: "Corona - 33cl" , description: "", prezzo: 3 },
+  { name: "Menabrea - 33cl", description: "", prezzo: 3 },
+  { name: "Bottiglia di vino rosso/bianco - 25cl" , description: "", prezzo: 3 },
+
+];
+
 
   // Menu bodysi
   var menuBody = document.getElementById("menu-body");
@@ -205,5 +251,84 @@ var antipastiMenu = [
         antipastiBody.appendChild(row);
     });
   
+  
+
+
+
+      // Fritture
+
+      // Get the fritture body
+      var frittureBody = document.getElementById("fritture-body");
+
+      // Display each focaccia in the focacce table
+      frittureMenu.forEach(function(frittura) {
+        var row = document.createElement("tr");
+  
+        var nameCell = document.createElement("td");
+        nameCell.innerHTML = "<strong>" + frittura.name + "</strong><p>" + frittura.description + "</p></td>";
+  
+        var prezzoPriceCell = document.createElement("td");
+        prezzoPriceCell.textContent = "€" + frittura.prezzo;
+  
+  
+
+  
+        row.appendChild(nameCell);
+        row.appendChild(prezzoPriceCell);
+
+        frittureBody.appendChild(row);
+    });
+  
+
+          // Bibite
+
+      // Get the Bibite body
+      var bibiteBody = document.getElementById("bibite-body");
+
+      // Display each Bibite in the Bibite table
+      bibiteMenu.forEach(function(bibita) {
+        var row = document.createElement("tr");
+  
+        var nameCell = document.createElement("td");
+        nameCell.innerHTML = "<strong>" + bibita.name + "</strong><p>" + bibita.description + "</p></td>";
+  
+        var prezzoPriceCell = document.createElement("td");
+        prezzoPriceCell.textContent = "€" + bibita.prezzo;
+  
+  
+
+  
+        row.appendChild(nameCell);
+        row.appendChild(prezzoPriceCell);
+
+        bibiteBody.appendChild(row);
+    });
+  
+
+
+
+          // birra
+
+      // Get the birra body
+      var birreBody = document.getElementById("birre-body");
+
+      // Display each birra in the birra table
+      birreMenu.forEach(function(birra) {
+        var row = document.createElement("tr");
+  
+        var nameCell = document.createElement("td");
+        nameCell.innerHTML = "<strong>" + birra.name + "</strong><p>" + birra.description + "</p></td>";
+  
+        var prezzoPriceCell = document.createElement("td");
+        prezzoPriceCell.textContent = "€" + birra.prezzo;
+  
+  
+
+  
+        row.appendChild(nameCell);
+        row.appendChild(prezzoPriceCell);
+
+        birreBody.appendChild(row);
+    });
   
 });

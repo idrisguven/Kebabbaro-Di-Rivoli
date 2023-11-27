@@ -23,3 +23,6 @@ document.addEventListener("DOMContentLoaded", function () {
   // Aggiungi un gestore di eventi al pulsante
   scrollToTopBtn.addEventListener("click", scrollToTop);
 });
+
+
+
